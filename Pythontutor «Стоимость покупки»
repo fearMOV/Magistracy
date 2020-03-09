@@ -1,0 +1,4 @@
+a, b, n = [int(input()) for i in range(3)]
+a = a * n + (b * n // 100)
+b = b * n % 100
+print(a, b)
