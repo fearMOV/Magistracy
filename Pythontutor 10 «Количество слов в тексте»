@@ -1,0 +1,6 @@
+n = int(input())
+x = [input().split() for i in range(n)]
+y = []
+for i in x:
+    y += set(i)
+print(len(set(y)))
