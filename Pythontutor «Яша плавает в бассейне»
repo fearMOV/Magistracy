@@ -1,0 +1,6 @@
+x = [int(input()) for i in range(4)]
+temp = x[0]
+for i in x:
+    if i < temp:
+        temp = i
+print(temp)
