@@ -1,0 +1,6 @@
+N = int(input())
+x = [int(input()) for i in range(N)]
+summa = 0
+for i in x:
+    summa += i
+print(summa)
