@@ -1,0 +1,7 @@
+dict1 = {}
+for _ in range(int(input())):
+    key, value = input().split()
+    dict1[key] = dict1.get(key, 0) + int(value)
+ 
+for key, value in sorted(dict1.items()):
+    print(key, value)
